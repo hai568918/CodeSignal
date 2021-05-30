@@ -35,6 +35,7 @@ public class Main {
 	}
 	
 	private static int countSumOfTwoRepresentations2(int n, int l, int r) {
+		int b = 6;
 	    int count = 0;
 	    for (int i = l; i <= n/2; i++) {
 	        if((n-l) <= r) {
